@@ -62,7 +62,7 @@ pivot validate-config --config pivot.yaml
 pivot run --config pivot.yaml
 ```
 
-当前 `run` 命令处于 dry-run 模式，展示仓库同步与变更检测流程；后续迭代将补全翻译与输出流水线。
+当前 `run` 命令处于 dry-run 模式，会同步仓库并列出检测到的文档变更；后续迭代将补全实际翻译与输出流水线。
 
 ## 开发指南
 
